@@ -23,19 +23,19 @@ import javax.swing.SwingConstants;
 @SuppressWarnings("serial")
 public class MenuFrame extends JFrame {
     /**
-     * My Panel List. ***************
+     * My Panel List. 
      */
     private List<JPanel> myPanelList = new ArrayList<JPanel>();
     /**
-     * Create Panel. *************
+     * Create Panel. 
      */
     private final CreatePanel myCreatePanel = new CreatePanel();
     /**
-     * Search Panel. **************
+     * Search Panel. 
      */
     private final SearchPanel mySearchPanel = new SearchPanel();
     /**
-     * Home Panel. **************
+     * Home Panel. 
      */
     private final HomePanel myHomePanel = new HomePanel();
     /**
@@ -66,9 +66,7 @@ public class MenuFrame extends JFrame {
         myPanelList.add(mySearchPanel);
         myPanelList.add(myCreatePanel);
         myPanelList.add(myHelpPanel);
-        //myPanelList.add(myQuizPanel);
-       // myPanelList.add(myImagePanel);
-      //  myPanelList.add(myDrawingPanel);
+      
         myIndex = 0;
         buildMenu();
         buildComponents();
